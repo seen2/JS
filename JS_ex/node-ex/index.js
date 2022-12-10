@@ -80,6 +80,11 @@ app.get("*", (req, res) => {
   res.sendFile(`${publicPath}/notfound.html`);
 });
 
-app.listen(3000, () => {
-  console.log("Listening on 3000...");
+app.listen(7000, () => {
+  console.log("Listening on 7000...");
 });
+
+//TEST
+module.exports = {
+  app
+}
