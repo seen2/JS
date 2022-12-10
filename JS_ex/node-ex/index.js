@@ -84,7 +84,7 @@ app.listen(7000, () => {
   console.log("Listening on 7000...");
 });
 
-//TEST
+//TESTING
 module.exports = {
   app
 }
