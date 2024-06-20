@@ -16,7 +16,7 @@ console.log(newVariable);
 var obj = {
   name: "The obj Object",
   log: function () {
-    var self = this;
+    var self = this; //because of functional level scoping this will loose its reference in nested function
     console.log(this);
     self.name = "Updated to C"
     console.log(this);
